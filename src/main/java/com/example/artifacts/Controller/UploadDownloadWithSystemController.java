@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.List;
 
-@CrossOrigin("*")
+@CrossOrigin("/**")
 @RestController
 @RequestMapping(path="/file")
 public class UploadDownloadWithSystemController {
